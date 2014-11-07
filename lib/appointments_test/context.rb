@@ -1,4 +1,4 @@
-module AppointmentsTest
+module TestAbstractions
   class Context
     include Initializer
 

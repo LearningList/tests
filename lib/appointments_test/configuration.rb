@@ -1,4 +1,4 @@
-module AppointmentsTest
+module TestAbstractions
   def configure(&block)
     configuration = Configuration.instance
     block.call configuration

@@ -1,4 +1,4 @@
-module AppointmentsTest
+module TestAbstractions
   module Boot
     module Capybara
       extend self
@@ -10,4 +10,4 @@ module AppointmentsTest
   end
 end
 
-AppointmentsTest::Boot::Capybara.!
+TestAbstractions::Boot::Capybara.!

@@ -1,4 +1,4 @@
-module AppointmentsTest
+module TestAbstractions
   module ExampleData
     module DataObject
       def self.included(descendant)

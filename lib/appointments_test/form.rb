@@ -1,4 +1,4 @@
-module AppointmentsTest
+module TestAbstractions
   module Form
     def self.included(base)
       base.send :include, Client::Accessor
