@@ -1,4 +1,4 @@
-module AppointmentsTest
+module TestAbstractions
   class Client
     attr_accessor :base_uri
     attr_accessor :driver

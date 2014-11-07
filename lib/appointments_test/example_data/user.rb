@@ -1,4 +1,4 @@
-module AppointmentsTest
+module TestAbstractions
   module ExampleData
     class User
       include DataObject

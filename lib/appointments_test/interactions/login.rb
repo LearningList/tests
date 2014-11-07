@@ -1,8 +1,8 @@
-module AppointmentsTest
+module TestAbstractions
   module Interactions
     module Login      
       class Form
-        include AppointmentsTest::Form
+        include TestAbstractions::Form
 
         uri '/admin/login'
         actuator '#practice_user_session_submit'
@@ -16,7 +16,7 @@ module AppointmentsTest
         end
 
         class Fields
-          include AppointmentsTest::Fields
+          include TestAbstractions::Fields
 
           def username
             client.find('#practice_user_session_login')
@@ -29,7 +29,7 @@ module AppointmentsTest
       end
 
       class Evidence
-        include AppointmentsTest::Evidence
+        include TestAbstractions::Evidence
 
         def logged_in?
           client.has_content?('Successfully logged in')

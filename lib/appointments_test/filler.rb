@@ -1,4 +1,4 @@
-module AppointmentsTest
+module TestAbstractions
   class Filler
     # # NOTE: try this with include in setup
     include Initializer
