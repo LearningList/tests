@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rspec'
+gem 'rspec', '2.14.1'
 gem 'capybara'
 gem 'selenium-webdriver'
 gem 'poltergeist'
-gem 'powder'
 gem 'initializer'
 gem 'require_all'
 gem 'ruby_version'
 gem 'virtus'
+gem 'test_abstractions'
