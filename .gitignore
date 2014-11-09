@@ -18,3 +18,4 @@ support/*.png
 bin
 Gemfile.lock
 output
+gems

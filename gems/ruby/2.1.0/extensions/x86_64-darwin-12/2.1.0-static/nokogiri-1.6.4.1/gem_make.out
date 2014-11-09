@@ -172,5 +172,5 @@ rmdir -p /Users/sbellware/projects/courseware/web-ui-testing/signup-test/gems/ru
 rm -rf /Users/sbellware/projects/courseware/web-ui-testing/signup-test/gems/ruby/2.1.0/gems/nokogiri-1.6.4.1/ports
 
 make "DESTDIR=" install
-/usr/bin/install -m 0755 nokogiri.bundle ./.gem.20141107-2851-69d836/nokogiri
+/usr/bin/install -m 0755 nokogiri.bundle ./.gem.20141109-29986-aptds2/nokogiri
 installing default nokogiri libraries

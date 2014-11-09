@@ -9,7 +9,7 @@ module SignUpTest
       def self.example
         sign_up = new
         sign_up.name = 'Some Name'
-        sign_up.password = 'some_address@email.com'
+        sign_up.email_address = 'some_address@email.com'
         sign_up
       end
     end

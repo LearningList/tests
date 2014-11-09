@@ -1,7 +1,7 @@
 require_relative 'spec_init'
 
 describe Interactions::SignUp do
-  let(:sign_up_data) { ExampleData::Signup.example }
+  let(:sign_up_data) { ExampleData::SignUp.example }
   let(:evidence) { sign_up.! }
   let(:signed_up) { evidence.signed_up? }
 

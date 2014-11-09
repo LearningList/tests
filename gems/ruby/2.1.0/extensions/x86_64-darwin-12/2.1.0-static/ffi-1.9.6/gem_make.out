@@ -67,5 +67,5 @@ linking shared-object ffi_c.bundle
 ld: warning: directory not found for option '-L/Users/mpapis/.sm/pkg/active/lib'
 
 make "DESTDIR=" install
-/usr/bin/install -m 0755 ffi_c.bundle ./.gem.20141107-2851-6idwde
+/usr/bin/install -m 0755 ffi_c.bundle ./.gem.20141109-29986-1pi995w
 installing default ffi_c libraries
