@@ -5,4 +5,3 @@ RSpec.configure do |config|
     TestAbstractions::Client.instance.open 'http://localhost:3000'
   end
 end
-
