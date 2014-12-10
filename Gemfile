@@ -13,3 +13,5 @@ gem 'require_all'
 gem 'ruby_version'
 gem 'virtus'
 prox_gem 'test_abstractions'
+
+ruby '2.1.0'
